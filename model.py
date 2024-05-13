@@ -18,5 +18,4 @@ class DWC():
               n_layers=12, patch_emb=PatchEmbeddings,
               pos_emb=LearnedPositionalEmbeddings, classification=ClassificationHead):
       
-      print(VisionTransformer(TransformerLayer=transformer_layer,n_layers= n_layers,
-                                    patch_emb= patch_emb, pos_emb=pos_emb, classification= classification))
+      print(VisionTransformer(n_layers= n_layers, patch_emb= patch_emb, pos_emb=pos_emb, classification= classification))
