@@ -3,10 +3,8 @@
 # Modified from LabML implementation
 import torch
 from torch import nn
-
 from labml_helpers.module import Module
-from labml_nn.transformers import TransformerLayer
-from labml_nn.utils import clone_module_list
+
 
 class PatchEmbeddings(Module):
     """

@@ -1,3 +1,8 @@
+import torch
+from torch import nn
+from labml_helpers.module import Module
+
+
 class ClassificationHead(Module):
     """
     <a id="ClassificationHead"></a>

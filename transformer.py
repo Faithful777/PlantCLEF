@@ -1,3 +1,10 @@
+import torch
+from torch import nn
+from labml_helpers.module import Module
+from labml_nn.transformers import TransformerLayer
+from embeddings import PatchEmbeddings, LearnedPositionalEmbeddings
+from classificationhead import ClassificationHead
+
 class VisionTransformer(Module):
     """
     ## Vision Transformer
